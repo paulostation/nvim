@@ -1,8 +1,6 @@
-tt.*
-.tests
-doc/tags
-debug
-.repro
-foo.*
-*.log
-data
+# Ignore compiled files and backups
+*.luac
+*.swp
+*.bak
+*.tmp
+lazy-lock.json
