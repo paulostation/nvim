@@ -4,10 +4,12 @@ return {
     "stevearc/conform.nvim",
     opts = {
       formatters_by_ft = {
-        python = { "ruff_format" },
+        helm = {}, -- no formatter
+        python = { "ruff_fix", "ruff_format" },
         lua = { "stylua" },
         sh = { "shfmt" },
       },
+      notify_on_error = true, -- optional but handy
     },
   },
 }

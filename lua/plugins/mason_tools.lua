@@ -27,6 +27,8 @@ return {
       "typescript-language-server",
       "yaml-language-server",
       "yamllint",
+      "yamlls",
+      "helm_ls",
     },
     auto_update = false,
     run_on_start = true,

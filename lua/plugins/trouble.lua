@@ -3,4 +3,3 @@ return {
   dependencies = { "nvim-tree/nvim-web-devicons" },
   opts = {}, -- Use default config
 }
-

@@ -13,6 +13,6 @@ return {
       end
     end
 
-    vim.api.nvim_create_autocmd("TextYankPost", {callback = copy})
+    vim.api.nvim_create_autocmd("TextYankPost", { callback = copy })
   end,
 }
