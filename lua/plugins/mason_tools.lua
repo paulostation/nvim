@@ -29,6 +29,9 @@ return {
       "yamllint",
       "yamlls",
       "helm_ls",
+      "terraform-ls", -- language s<erver (formatter + validation)
+      "tflint", -- linter
+      "tfsec", -- security scanner
     },
     auto_update = false,
     run_on_start = true,
