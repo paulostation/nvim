@@ -8,6 +8,7 @@ return {
         python = { "ruff_fix", "ruff_format" },
         lua = { "stylua" },
         sh = { "shfmt" },
+        php = { "php_cs_fixer" },
       },
       notify_on_error = true, -- optional but handy
     },
