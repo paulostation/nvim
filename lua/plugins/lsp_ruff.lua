@@ -3,12 +3,9 @@ return {
     "neovim/nvim-lspconfig",
     opts = {
       servers = {
-        -- Some setups register as `ruff_lsp`, others as `ruff`.
+        -- Disable old ruff_lsp (no longer exists, ruff uses `ruff server` now)
         ruff_lsp = {
-          on_attach = function(client, _)
-            client.server_capabilities.documentFormattingProvider = false
-            client.server_capabilities.documentRangeFormattingProvider = false
-          end,
+          enabled = false,
         },
         ruff = {
           on_attach = function(client, _)
